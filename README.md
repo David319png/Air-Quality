@@ -3,7 +3,7 @@
 Sistema embebido compacto (**50,64 mm**) basado en **ESP32** para la detección, acondicionamiento y telemetría de gases inflamables y monóxido de carbono.
 
 <p align="center">
-  <img src="PCB_3d.png" alt="Vista 3D PCB AIR-QUALITY" width="320">
+  <img src="3D/PCB_3d.png" alt="Vista 3D PCB AIR-QUALITY" width="320">
 </p>
 
 ## Resumen de Ingeniería
@@ -13,7 +13,8 @@ Sistema embebido compacto (**50,64 mm**) basado en **ESP32** para la detección,
 * **Gestión de Potencia y Eficiencia:** Regulación lineal mediante **AMS1117-3.3** ($T_J \approx 78,55\,^\circ\text{C}$, rizado $< 12\text{ mV}_{\text{PP}}$) y conmutación *low-side* por MOSFET para el control energético de los calefactores de los sensores.
 
 ## Estructura del Repositorio
-* **Documentación:** `AIR-QUALITY.pdf` — Nota de Aplicación e Informe de Ingeniería (`ER_202611_AQ_001`).
-* **Diseño CAD (Altium Designer):** Proyecto completo (`D_Firts_Project.PrjPcb`), esquemáticos jerárquicos (`Main.SchDoc`, `ESP32.SchDoc`), layout (`PCB_AIR_QUALITY.PcbDoc`), librerías (`Schlib1.SchLib`, `PcbLib1.PcbLib`) y salidas (`D_Firts_Project.OutJob`).
-* **Firmware y Datos:** Configuración PlatformIO (`platformio.ini`) y registro de pruebas (`lecturas_sensor.txt`).
-* **Evidencias Visuales:** Render 3D de la tarjeta (`PCB_3d.png`) y montaje experimental en protoboard (`poc_proto.jp.jpeg`).
+* **`3D/`:** Renderizado 3D de la tarjeta (`PCB_3d.png`) y planos físicos (`PCB_AIR_QUALITY.pdf`).
+* **`ALTIUM_FILES/`:** Archivos nativos de diseño PCB, librerías y salidas de fabricación en Altium Designer.
+* **`SCH/`:** Esquemáticos eléctricos jerárquicos del sistema.
+* **`Archivos_Finales/`:** Entregables consolidados del proyecto.
+* **Documentación y Evidencias:** Presentación ejecutiva (`AIR-QUALITY PST-Luis David Duque Cañas-1.pdf`) y montaje experimental en protoboard (`poc_proto.jp.jpeg`).
