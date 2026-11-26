@@ -1,4 +1,4 @@
-# AIR-QUALITY — Nodo IoT de Monitoreo Ambiental (Rev. D)
+# AIR-QUALITY — Nodo IoT de Monitoreo 
 
 Sistema embebido compacto (**50,64 mm**) basado en **ESP32** para la detección, acondicionamiento y telemetría de gases inflamables y monóxido de carbono.
 
